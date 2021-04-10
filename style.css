@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(79, 158, 244);
+}
+
+.navbar{
+    background-color: rgb(93, 47, 201);
+    
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.navbar .container-fluid{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    color: forestgreen;
+    -webkit-text-stroke: rgb(79, 158, 244);
+    -webkit-text-stroke-width: 2px;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.sub-title{
+    color: forestgreen;
+    text-shadow: 2px 2px #ff0000;
+    -webkit-text-stroke: rgb(79, 158, 244);
+    -webkit-text-stroke-width: 2px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    width: 100%;
+}
+
+.search-input{
+    width: 50%;
+    margin-bottom: 10px;
+    color: forestgreen;
+    font-size: larger;
+}
+
+.search-button{
+    padding: 10px;
+    background-color: rgb(93, 47, 201);
+    color: forestgreen;
+    text-shadow: 2px 2px #ff0000;
+    -webkit-text-stroke: rgb(79, 158, 244);
+    -webkit-text-stroke-width: 1px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.search-button:hover{
+    background-color: forestgreen;
+    color: rgb(79, 158, 244);
+    text-shadow: 2px 2px #ff0000;
+    -webkit-text-stroke: rgb(93, 47, 201);
+    -webkit-text-stroke-width: 1px;
+}
+
+.select-box-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-select{
+    width: 30%;
+    margin-top: 10px;
+}
+
+.search-results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result-title{
+    color: forestgreen;
+    text-shadow: 2px 2px #ff0000;
+    -webkit-text-stroke: rgb(79, 158, 244);
+    -webkit-text-stroke-width: 2px;
+    margin-left: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.recipe-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.recipe-title{
+    color: forestgreen;
+    text-shadow: 2px 2px #ff0000;
+    -webkit-text-stroke: rgb(79, 158, 244);
+    -webkit-text-stroke-width: 2px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.recipe-img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-width: 5px;
+    border: 10px solid rgb(93, 47, 201);
+}
+
+.recipe-info{
+    font-size: 20px;
+    color: #ff0000;
+    text-shadow: 2px 2px forestgreen;
+    -webkit-text-stroke: rgb(79, 158, 244);
+    -webkit-text-stroke-width: 1px;
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.refresh-button{
+    padding: 10px;
+    background-color: rgb(93, 47, 201);
+    color: forestgreen;
+    text-shadow: 2px 2px #ff0000;
+    -webkit-text-stroke: rgb(79, 158, 244);
+    -webkit-text-stroke-width: 1px;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.modal-content{
+    background-color:rgb(93, 47, 201)
+}
+
+.modal-title{
+    background-color: rgb(93, 47, 201);
+    color: forestgreen;
+    text-shadow: 2px 2px #ff0000;
+    -webkit-text-stroke: rgb(79, 158, 244);
+    -webkit-text-stroke-width: 1px;
+}
+
+.modal-info{
+    background-color: rgb(93, 47, 201);
+    color: forestgreen;
+    text-shadow: 2px 2px #ff0000;
+    -webkit-text-stroke: rgb(79, 158, 244);
+    -webkit-text-stroke-width: 1px;
+}
+
+.modal-btn{
+    background-color: rgb(93, 47, 201);
+    color: forestgreen;
+    text-shadow: 2px 2px #ff0000;
+    -webkit-text-stroke: rgb(79, 158, 244);
+    -webkit-text-stroke-width: 1px;
+}
+
+footer{
+    color: forestgreen;
+    text-shadow: 2px 2px #ff0000;
+    -webkit-text-stroke: rgb(79, 158, 244);
+    -webkit-text-stroke-width: 2px;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 25px;
+}
